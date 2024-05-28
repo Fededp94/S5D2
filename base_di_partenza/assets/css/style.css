@@ -140,7 +140,23 @@ blockquote {
 h1 + p {
   color: #a0a0a0;
 }
+/** SOTTOLINEATURA **/
+article h1 img {
+  position: absolute;
+  margin-top: 55px;
+  width: 80vh;
+  opacity: 70%;
+}
+section h2 {
+  position: absolute;
+  top: -10%;
+}
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 @media screen and (max-width: 499px) {
   p,
   ul,
